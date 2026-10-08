@@ -5,7 +5,10 @@ __pycache__/
 venv/
 env/
 
-data/raw/
+data/raw/*
+!data/raw/apnea-ecg/
+!data/raw/apnea-ecg/**
+
 data/processed/
 models/*.h5
 models/*.keras
