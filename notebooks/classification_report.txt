@@ -1,0 +1,13 @@
+ECG Sleep Apnea CNN Evaluation
+Threshold: 0.40
+Test Accuracy: 76.26%
+Test ROC-AUC: 0.8649
+
+              precision    recall  f1-score   support
+
+      Normal       0.65      0.73      0.69       514
+       Apnea       0.84      0.78      0.81       935
+
+    accuracy                           0.76      1449
+   macro avg       0.74      0.76      0.75      1449
+weighted avg       0.77      0.76      0.77      1449
