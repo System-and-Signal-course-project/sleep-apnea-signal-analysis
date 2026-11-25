@@ -25,6 +25,8 @@ results/       Figures and evaluation metrics
 report/        Written report and references
 presentation/  Presentation material
 docs/          Project plan and methodology
+final_project/ Having Final project notebooks and code
+final_demo/    Final ui demo
 ```
 
 ## Workflow
