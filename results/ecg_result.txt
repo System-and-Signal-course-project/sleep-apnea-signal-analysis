@@ -1,0 +1,27 @@
+SAMPLE PREDICTIONS
+-----------------------------------------------------------------
+Window 01 | Actual: Normal | Predicted: Apnea  | Apnea score: 56.82% | INCORRECT
+Window 02 | Actual: Normal | Predicted: Apnea  | Apnea score: 42.83% | INCORRECT
+Window 03 | Actual: Normal | Predicted: Normal | Apnea score:  8.43% | CORRECT
+Window 04 | Actual: Normal | Predicted: Normal | Apnea score: 27.36% | CORRECT
+Window 05 | Actual: Normal | Predicted: Normal | Apnea score: 34.01% | CORRECT
+Window 06 | Actual: Normal | Predicted: Normal | Apnea score: 32.69% | CORRECT
+Window 07 | Actual: Normal | Predicted: Normal | Apnea score: 10.64% | CORRECT
+Window 08 | Actual: Normal | Predicted: Apnea  | Apnea score: 50.61% | INCORRECT
+Window 09 | Actual: Normal | Predicted: Normal | Apnea score: 16.40% | CORRECT
+Window 10 | Actual: Normal | Predicted: Normal | Apnea score: 25.93% | CORRECT
+
+OVERALL TEST RESULTS
+-----------------------------------------------------------------
+Test accuracy: 61.28%
+ROC-AUC:       0.6159
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Normal       0.73      0.68      0.71      2329
+       Apnea       0.41      0.47      0.44      1098
+
+    accuracy                           0.61      3427
+   macro avg       0.57      0.57      0.57      3427
+weighted avg       0.63      0.61      0.62      3427
