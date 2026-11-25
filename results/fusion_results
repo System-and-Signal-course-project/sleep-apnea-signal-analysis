@@ -1,0 +1,60 @@
+Accuracy: 0.9244391971664699
+ROC-AUC: 0.9817817473949387
+              precision    recall  f1-score   support
+
+      Normal       0.89      0.99      0.94       492
+       Apnea       0.98      0.83      0.90       355
+
+    accuracy                           0.92       847
+   macro avg       0.94      0.91      0.92       847
+weighted avg       0.93      0.92      0.92       847
+
+Sample 1
+Actual: Normal
+Predicted: Normal
+Apnea probability: 0.005
+
+Sample 2
+Actual: Normal
+Predicted: Normal
+Apnea probability: 0.0028
+
+Sample 3
+Actual: Normal
+Predicted: Normal
+Apnea probability: 0.0558
+
+Sample 4
+Actual: Normal
+Predicted: Normal
+Apnea probability: 0.0022
+
+Sample 5
+Actual: Normal
+Predicted: Normal
+Apnea probability: 0.0399
+
+Sample 6
+Actual: Normal
+Predicted: Normal
+Apnea probability: 0.0011
+
+Sample 7
+Actual: Normal
+Predicted: Normal
+Apnea probability: 0.0016
+
+Sample 8
+Actual: Normal
+Predicted: Apnea
+Apnea probability: 0.9294
+
+Sample 9
+Actual: Normal
+Predicted: Normal
+Apnea probability: 0.0385
+
+Sample 10
+Actual: Normal
+Predicted: Normal
+Apnea probability: 0.0081
