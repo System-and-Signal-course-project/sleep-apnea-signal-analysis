@@ -1,0 +1,15 @@
+Test loss: 0.2466
+Test accuracy: 0.9374
+Test ROC-AUC: 0.9713
+
+Accuracy: 0.9374
+ROC-AUC: 0.981
+
+               precision    recall  f1-score   support
+
+      Normal       0.91      0.99      0.95       492
+       Apnea       0.98      0.87      0.92       355
+
+    accuracy                           0.94       847
+   macro avg       0.95      0.93      0.93       847
+weighted avg       0.94      0.94      0.94       847
